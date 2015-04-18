@@ -1,7 +1,7 @@
 pulseaudio-stream-fader
 -----------------------
 
-PulseAudio stream fader. Automatically fades-pauses/unpauses-fades sinks based upon user rules.
+PulseAudio stream fader. Automatically fades-pauses/unpauses-fades streams based upon user rules.
 
 
 Installation
@@ -27,19 +27,20 @@ Requirements
 Usage
 -----
 
-Run the script. There's no configuration yet, pulseaudio-stream-fader listens to chrome/chromium sink events and
+Run the script. There's no configuration yet, pulseaudio-stream-fader listens to chrome/chromium stream events and
 pauses/unpauses spotify.
 
 
 Bugs
 ----
 
-Chromium may start a sink if google search results contain word definition.
-Long term solution would be to monitor sink VU levels.
+Chromium may start a stream if google search results contain word definition.
+Long term solution would be to monitor stream VU levels.
 
 
 Thanks to
 ---------
 
 Loosely based upon [pulseaudio-mixer-cli](https://github.com/mk-fg/pulseaudio-mixer-cli/).
+
 Idea borrowed from [mute.fm](http://www.mute.fm/). Check them out if you need Windows solution.
