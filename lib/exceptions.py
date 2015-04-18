@@ -1,0 +1,2 @@
+class VolumeException(Exception):
+    pass
